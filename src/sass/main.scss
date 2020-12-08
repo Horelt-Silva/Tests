@@ -1,9 +1,12 @@
 body {
-    background: #3d3d3d;
-    color: whitesmoke;
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    background-color: #fff;
 }
 
 .footer {
@@ -15,4 +18,21 @@ body {
     background: #4b4b4b;
     border-top: 1px solid #ffffff;
     color: aliceblue;
+}
+
+
+/*Cards Style*/
+
+.card {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: inherit;
+    transition: all 400ms ease;
+    border: transparent;
+}
+
+.special-card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2%);
+    cursor: pointer;
 }
